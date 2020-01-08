@@ -42,4 +42,7 @@ export const Example2 = ( ) => {
 |bordered       | Controls the whether there are borders for the images    	| bool  	|  true 	|    
 |borderRadius   | Controls the border radius  	| int  	|   10	|
 
-##   	
+## License
+```
+MIT
+```	
