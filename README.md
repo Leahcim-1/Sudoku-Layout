@@ -2,6 +2,11 @@
 
 Sukudo Layout is a simple UI component to let display pictures in sudoku layout
 
+## Getting Start
+```
+npm install
+npm run start
+```
 
 ## Usage
 Put the sources of the image into an object, and then placed it inside an array. 
