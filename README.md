@@ -9,7 +9,6 @@ Put the sources of the image into an object, and then placed it inside an array.
 imageConfig must be an array
 
 ```
-JavaScripts
 import SudokuLayout from '../Components/SudokuLayout';
 
 const image4 = [
