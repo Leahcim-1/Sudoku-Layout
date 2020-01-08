@@ -1,7 +1,19 @@
 {
   "name": "sudoku-layout",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.1.2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Leahcim-1/Sudoku-Layout.git"
+  },
+  "private": false,
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "babel": {
+    "presets": [
+      "@babel/react"
+    ]
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -14,7 +26,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "publish:npm": "set NODE_ENV=production && rm -rf dist && mkdir dist && npx babel src/Components --out-dir dist --copy-files"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -30,5 +43,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.7",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "prop-types": "^15.7.2"
   }
 }
